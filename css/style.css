@@ -1,11 +1,11 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
-
-
 header {
     width: 1280px;
     height: 49px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 65px;
@@ -17,7 +17,11 @@ header {
 }
 
 .ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding-top: 15px;
 }
@@ -48,7 +52,11 @@ main {
     height: 474px;
     margin: 0 auto;
     margin-top: 86px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -76,9 +84,13 @@ h1 {
 }
 
 .div2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 536px;
     height: 45px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -86,8 +98,61 @@ h1 {
     width: 314px;
     height: 41px;
     border-radius: 3.13px;
+    -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     border: 1px solid #07043B;
+}
+
+.email-1::-webkit-input-placeholder {
+    width: 127px;
+    height: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    letter-spacing: 0.44px;
+    color: #C2C2C2;
+    padding-top: 14px;
+    padding-left: 21px;
+}
+
+.email-1::-moz-placeholder {
+    width: 127px;
+    height: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    letter-spacing: 0.44px;
+    color: #C2C2C2;
+    padding-top: 14px;
+    padding-left: 21px;
+}
+
+.email-1:-ms-input-placeholder {
+    width: 127px;
+    height: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    letter-spacing: 0.44px;
+    color: #C2C2C2;
+    padding-top: 14px;
+    padding-left: 21px;
+}
+
+.email-1::-ms-input-placeholder {
+    width: 127px;
+    height: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    letter-spacing: 0.44px;
+    color: #C2C2C2;
+    padding-top: 14px;
+    padding-left: 21px;
 }
 
 .email-1::placeholder {
@@ -108,6 +173,7 @@ h1 {
     height: 45px;
     border-radius: 3.13px;
     background-color: #2F65F8;
+    -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
 }
 
@@ -152,6 +218,8 @@ h1 {
     height: 723.87px;
     margin: 0 auto;
     background-color: #F8F8FE;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -199,6 +267,8 @@ h1 {
     height: 27px;
     padding-top: 15px;
     border-bottom: 1px solid #3DA08F;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -237,6 +307,7 @@ h1 {
     height: 215px;
     margin-top: 45px;
     background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.04588843);
     box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.04588843);
     border-radius: 5px;
 }
@@ -261,6 +332,8 @@ h1 {
     width: 137px;
     height: 32px;
     padding-left: 33px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -308,6 +381,8 @@ h1 {
     height: 322px;
     margin: 0 auto;
     background-color: #575988;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -351,8 +426,57 @@ h1 {
     width: 480px;
     height: 48px;
     border-radius: 3.13px;
+    -webkit-box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
     box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
     border: 1px solid #575988;
+}
+
+.email-2::-webkit-input-placeholder {
+    width: 234px;
+    height: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.09px;
+    color: #C0C0C0;
+    padding-top: 16px;
+    padding-left: 22px;
+}
+
+.email-2::-moz-placeholder {
+    width: 234px;
+    height: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.09px;
+    color: #C0C0C0;
+    padding-top: 16px;
+    padding-left: 22px;
+}
+
+.email-2:-ms-input-placeholder {
+    width: 234px;
+    height: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.09px;
+    color: #C0C0C0;
+    padding-top: 16px;
+    padding-left: 22px;
+}
+
+.email-2::-ms-input-placeholder {
+    width: 234px;
+    height: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.09px;
+    color: #C0C0C0;
+    padding-top: 16px;
+    padding-left: 22px;
 }
 
 .email-2::placeholder {
@@ -372,6 +496,7 @@ h1 {
     height: 48px;
     border-radius: 3.13px;
     background-color: #2F65F8;
+    -webkit-box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
     box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
     margin-top: 16px;
 }
@@ -397,6 +522,8 @@ footer {
     height: 382px;
     margin: 0 auto;
     background-color: #07043B;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -415,6 +542,8 @@ footer {
 .div13 {
     width: 222px;
     height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 37px;
 }
@@ -436,6 +565,8 @@ footer {
 .div14 {
     width: 224px;
     height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 16px;
 }
@@ -478,7 +609,11 @@ footer {
     height: 31px;
     margin-top: 170px;
     margin-left: 185px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
